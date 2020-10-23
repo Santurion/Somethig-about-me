@@ -56,15 +56,55 @@
 		A856FA272542CB1200B7E0DA /* Somethig about me */ = {
 			isa = PBXGroup;
 			children = (
-				A856FA282542CB1200B7E0DA /* AppDelegate.swift */,
-				A856FA2A2542CB1200B7E0DA /* SceneDelegate.swift */,
-				A856FA2C2542CB1200B7E0DA /* ViewController.swift */,
-				A856FA2E2542CB1200B7E0DA /* Main.storyboard */,
-				A856FA312542CB1400B7E0DA /* Assets.xcassets */,
-				A856FA332542CB1400B7E0DA /* LaunchScreen.storyboard */,
-				A856FA362542CB1400B7E0DA /* Info.plist */,
+				A856FA462542E2B400B7E0DA /* Vew Controllers */,
+				A856FA472542E31900B7E0DA /* Models */,
+				A856FA3F2542DC5D00B7E0DA /* Story Boards */,
+				A856FA412542E06600B7E0DA /* Suporting Files */,
+				A856FA442542E29200B7E0DA /* Resourse */,
 			);
 			path = "Somethig about me";
+			sourceTree = "<group>";
+		};
+		A856FA3F2542DC5D00B7E0DA /* Story Boards */ = {
+			isa = PBXGroup;
+			children = (
+				A856FA2E2542CB1200B7E0DA /* Main.storyboard */,
+				A856FA332542CB1400B7E0DA /* LaunchScreen.storyboard */,
+			);
+			path = "Story Boards";
+			sourceTree = "<group>";
+		};
+		A856FA412542E06600B7E0DA /* Suporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A856FA282542CB1200B7E0DA /* AppDelegate.swift */,
+				A856FA2A2542CB1200B7E0DA /* SceneDelegate.swift */,
+				A856FA362542CB1400B7E0DA /* Info.plist */,
+			);
+			path = "Suporting Files";
+			sourceTree = "<group>";
+		};
+		A856FA442542E29200B7E0DA /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				A856FA312542CB1400B7E0DA /* Assets.xcassets */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		A856FA462542E2B400B7E0DA /* Vew Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A856FA2C2542CB1200B7E0DA /* ViewController.swift */,
+			);
+			path = "Vew Controllers";
+			sourceTree = "<group>";
+		};
+		A856FA472542E31900B7E0DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H492AF3ARK;
-				INFOPLIST_FILE = "Somethig about me/Info.plist";
+				INFOPLIST_FILE = "Somethig about me/Suporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,7 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H492AF3ARK;
-				INFOPLIST_FILE = "Somethig about me/Info.plist";
+				INFOPLIST_FILE = "Somethig about me/Suporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
